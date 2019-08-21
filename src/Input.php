@@ -1,6 +1,6 @@
 <?php
 
-namespace Balambasik\Input;
+namespace Balambasik;
 
 /**
  * Class Input
