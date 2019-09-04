@@ -104,6 +104,11 @@ class Input
             $levels = explode(self::$delimiter, $key);
 
             foreach ($levels as $level) {
+                
+                if (!isset($array[$level])) {
+                    return $default;
+                }
+                
                 $array = $array[$level];
             }
 
